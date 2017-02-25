@@ -1,0 +1,102 @@
+body{
+	margin:0;
+	background-color: #D7DBD0;
+}
+.heading{
+	background-color: #AAC084;
+	position:fixed;
+	height: 125px;
+	width:100%;
+	z-index: 1;
+	margin:0;
+}
+.name{
+	width: 350px;
+	height: 70px;
+	margin: auto;
+	margin-left: 0px;
+	font-family: 'Candal', sans-serif;
+	color: #E4E8DE;
+	text-align: center;
+	font-size: 60px;
+}
+.description{
+	font-family: 'Contrail One', cursive;
+	text-align: center;
+	font-size: 30px;
+	width: 300px;
+	height: 20px;
+	margin: auto;
+	margin-top: 0px;
+	margin-left: 25px;
+	color: #F7475F;
+}
+.tabs {
+	text-decoration: none;
+	width: 270px;
+	height:100px;
+	margin-top: -80px;
+	margin-left: 350px;
+}
+.aboutmetab,.portfoliotab,.contacttab{
+	padding: 20px 20px 20px 20px;
+	width:50px;
+	float:left;
+}
+.aboutmebutton, .portfoliobutton, .contactbutton{
+	fill: white;
+}
+.aboutmetab:hover p, .aboutmetab:hover .aboutmebutton, .portfoliotab:hover p, .portfoliotab:hover .portfoliobutton, .contacttab:hover p, .contacttab:hover .contactbutton{
+	fill:#F7475F;
+	visibility: visible;
+}
+.amdescription, .pdescription, .cdescription{
+	font-size:10px;
+	visibility: hidden;
+	font-family: 'Contrail One', cursive;
+	margin:0px;
+	color: #F7475F;
+	text-align: center;
+}
+.welcome{
+	text-align: center;	
+	font-size: 150px;
+	font-family: 'Loved by the King', cursive;
+}
+.bubble{
+	position: absolute;
+	left: 0.5%;
+	top:1%;
+	z-index:-1;
+}
+.aboutme{
+	text-align: center;
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Courier New', sans-serif;
+	padding-left: 120px;
+	padding-top: 180px;
+	width: 720px;
+	left: 25%;
+	top: 15%;
+}
+
+.works{
+	text-align: center;
+	position: absolute;
+	top: 25%;
+}
+#TiredFlip, #Action, #TheDraw, #AdvancedAction, #Disney, #Stretch{
+	width: 20%;
+	padding: 20px 20px 20px 20px;
+}
+#resume{
+	margin: 300px 25%;
+	width: 1000px;
+}
+.contactmebar{
+	position:fixed;
+}
+.email{
+	top: 200px;
+}
