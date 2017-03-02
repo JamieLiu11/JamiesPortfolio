@@ -3,7 +3,7 @@ body{
 	background-color: #D7DBD0;
 }
 .heading{
-	background-color: #AAC084;
+	/*background-color: #D7DBD0;*/
 	position:fixed;
 	height: 125px;
 	width:100%;
@@ -16,7 +16,7 @@ body{
 	margin: auto;
 	margin-left: 0px;
 	font-family: 'Candal', sans-serif;
-	color: #E4E8DE;
+	color: #f6bdbd;
 	text-align: center;
 	font-size: 60px;
 }
@@ -29,28 +29,28 @@ body{
 	margin: auto;
 	margin-top: 0px;
 	margin-left: 25px;
-	color: #F7475F;
+	color: white;
 }
 .tabs {
 	text-decoration: none;
-	width: 270px;
+	width: 360px;
 	height:100px;
 	margin-top: -80px;
 	margin-left: 350px;
 }
-.aboutmetab,.portfoliotab,.contacttab{
+.hometab, .aboutmetab,.portfoliotab,.contacttab{
 	padding: 20px 20px 20px 20px;
 	width:50px;
 	float:left;
 }
-.aboutmebutton, .portfoliobutton, .contactbutton{
+.homebutton, .aboutmebutton, .portfoliobutton, .contactbutton{
 	fill: white;
 }
-.aboutmetab:hover p, .aboutmetab:hover .aboutmebutton, .portfoliotab:hover p, .portfoliotab:hover .portfoliobutton, .contacttab:hover p, .contacttab:hover .contactbutton{
+.hometab:hover p, .hometab:hover .homebutton, .aboutmetab:hover p, .aboutmetab:hover .aboutmebutton, .portfoliotab:hover p, .portfoliotab:hover .portfoliobutton, .contacttab:hover p, .contacttab:hover .contactbutton{
 	fill:#F7475F;
 	visibility: visible;
 }
-.amdescription, .pdescription, .cdescription{
+.hdescription, .amdescription, .pdescription, .cdescription{
 	font-size:10px;
 	visibility: hidden;
 	font-family: 'Contrail One', cursive;
@@ -58,37 +58,33 @@ body{
 	color: #F7475F;
 	text-align: center;
 }
+.externallinks{
+	float:left;
+	margin-top:-70px;
+	margin-left: 1000px;
+}
+.externallinks a{
+	text-decoration: none;
+	padding: 5px 5px 5px 5px;
+}
+.externallinks img{
+	width: 40px;
+	height: 40px;
+}
 .welcome{
+	position: absolute;
 	text-align: center;	
 	font-size: 150px;
-	font-family: 'Loved by the King', cursive;
-}
-.bubble{
-	position: absolute;
-	left: 0.5%;
-	top:1%;
-	z-index:-1;
-}
-.aboutme{
-	text-align: center;
-	position: absolute;
-	font-size: 30px;
-	font-family: 'Courier New', sans-serif;
-	padding-left: 120px;
-	padding-top: 180px;
-	width: 720px;
-	left: 25%;
-	top: 15%;
+	font-family: 'Contrail One', cursive;
 }
 
 .works{
-	text-align: center;
 	position: absolute;
-	top: 25%;
+	margin-left: 550px;
+	top: 200px;
 }
-#TiredFlip, #Action, #TheDraw, #AdvancedAction, #Disney, #Stretch{
-	width: 20%;
-	padding: 20px 20px 20px 20px;
+.videos li{
+	padding-top: 50px;
 }
 #resume{
 	margin: 300px 25%;
@@ -97,6 +93,115 @@ body{
 .contactmebar{
 	position:fixed;
 }
-.email{
-	top: 200px;
+.emailme{
+	position: absolute;
+	background-color:#f6bdbd;
+	width: 1000px;
+	height: 955px;
+	left: 950px;
+	top: 0px;
+}
+.emailme li{
+	padding: 5px 5px 5px 5px;
+	width: 400px;
+}
+.emailme h1{
+	padding-left:45px;
+	font-family: 'Contrail One', cursive;
+	font-size: 70px;
+	margin-top: 300px;
+}
+.callme{
+	position:absolute;
+	top: 250px;
+	left: 750px;
+}
+.callme h1{
+	font-family: 'Contrail One', cursive;
+	font-size: 70px;
+}
+.callme p{
+	font-family: 'Contrail One', cursive;
+	font-size: 30px;
+}
+#sendbutton{
+	border:none;
+	background-color:#F7475F;
+	padding: 5px 10px 5px 10px;
+	font-family: 'Contrail One', cursive;
+	font-size: 30px;
+}
+.aboutme{
+	text-align: center;
+	position: absolute;
+	font-size: 20px;
+	font-family: 'Contrail One', cursive;
+	padding-left: 120px;
+	padding-top: 180px;
+	width: 600px;
+	left: 20px;
+	top: 140px;
+}
+.education{
+	text-align: center;
+	position: absolute;
+	left: 1250px;
+	top: 1350px;
+	font-family: 'Contrail One', cursive;
+}
+.image1{
+	position:absolute;
+	left: 850px;
+	width:1050px;
+	height: 975px;
+	background-color:black;
+}
+.image2{
+	position:absolute;
+	left: 0px;
+	top:975px;
+	width: 850px;
+	height: 975px;
+	background-color:#F7475F;
+}
+.skills{
+	position: absolute;
+	top: 2155px;
+	left: 290px;
+	font-family: 'Contrail One', cursive;
+}
+.skills h1{
+	color:#F7475F;
+	text-align: center;
+	padding-left: 35px;
+}
+.image3{
+	position:absolute;
+	top:1950px;
+	left: 850px;
+	width:1050px;
+	height: 975px;
+	background-color:#f6bdbd;
+}
+.experience{
+	position:absolute;
+	top:3050px;
+	left: 1125px;
+	width: 500px;
+	font-family:'Contrail One', cursive;
+}
+.experience h1{
+	text-align: center;
+	margin-left: 25px;
+}
+.experience li{
+	font-size: 25px;
+}
+.image4{
+	position:absolute;
+	left: 0px;
+	top:2925px;
+	width: 850px;
+	height: 975px;
+	background-color:#F7475F;
 }
