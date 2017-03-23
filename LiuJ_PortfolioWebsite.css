@@ -77,7 +77,6 @@ body{
 	font-size: 150px;
 	font-family: 'Contrail One', cursive;
 }
-
 .works{
 	position: absolute;
 	margin-left: 550px;
@@ -209,41 +208,47 @@ body{
 .demoreel{
 	font-family: 'Contrail One', cursive;
 	background-color:#f6bdbd;
-	width:3000px;
+	width:1955px;
 	height: 750px;
 	position:absolute;
 	top: 120px;
 }
 .icon{
-	position:absolute;
-	top: 250px;
-	width:1905px;
+	width:1000px;
+	display:inline;
+	overflow:hidden;
 }
-.iconhover{
-	position:absolute;
-	top: 120px;
-	width: 1905px;
-	height: 750px;
-	background-color: #f6bdbd;
-}
-.icon div{
+.icon1, .icon2, .icon3, .icon4, .icon5{
 	float: left;
-}
-.iconhover div{
-	float:left;
-	margin-top:165px;
+	width:280px;
+	height:750px;
+	transition-property: width;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
 }
 .icon1 img, .icon2 img, .icon3 img, .icon4 img, .icon5 img{
-	visibility: visible;
-	width:380.6px;
-	margin-top: 35px;
+	width:955px;
+	filter: grayscale(1);
+
 }
-.icon1hover img, .icon2hover img, .icon3hover img, .icon4hover img, .icon5hover img{
-	width:380.6px;
-}
-.icon1:hover img, .icon2:hover img, .icon3:hover img, .icon4:hover img, .icon5:hover img{
-	visibility: hidden;
+.icon1 img:hover, .icon2 img:hover, .icon3 img:hover, .icon4 img:hover, .icon5 img:hover{
+	filter: grayscale(0);
 } 
+.icon1:hover{
+	width:750px;
+}
+.icon2:hover{
+	width:750px;
+}
+.icon3:hover{
+	width:750px;
+}
+.icon4:hover{
+	width:750px;
+}
+.icon5:hover{
+	width:750px;
+}
 #lightbox{
 	position:absolute;
 	z-index: 1px;
@@ -256,5 +261,170 @@ body{
 	position: absolute;
 	margin-left: 450px;
 	margin-top: 250px;
-	/*visibility: hidden;*/
+	visibility: hidden;
+}
+.demoreel iframe{
+	text-align:center;
+	margin-left: 535px;
+}
+.demoreel h1{
+	margin-left: 540px;
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+	.demoreel iframe{
+		position:absolute;
+		margin-left: 235px;
+		margin-top: 50px;
+		width: 1500px;
+		height: 843px;
+	}
+	.demoreel h1{
+		padding-top: 350px;
+		margin-left: 250px;
+	}
+	.demoreel{
+		height: 2450px;
+	}
+	.callme{
+		top: 700px;
+		left: 220px;
+	}
+	.callme h1{
+		font-size:200px;
+		margin-left: 10px;
+	}
+	.callme p{
+		font-size: 90px;
+	}
+	.emailme{
+		height:2600px;
+	}
+	.emailme h1{
+		font-size: 200px;
+		padding-left: 250px;
+		padding-top: 530px;
+	}
+	.emailme ul{
+		margin-left:220px;
+	}
+	.emailme li{
+		font-size: 60px;
+	}
+	.icon{
+		background-color:#F7475F;
+		position: absolute;
+		top:0px;
+		height: 2400px;
+		width: 1900px;
+		overflow:hidden;
+	}
+	.icon1, .icon2, .icon3, .icon4, .icon5{
+		margin-top: 150px;
+		float: left;
+		width: 200px;
+		height:2000px;
+	}
+	.icon1 img, .icon2 img, .icon3 img, .icon4 img, .icon5 img{
+		width: 2100px;
+	}
+	.icon1:hover{
+		width:1100px;
+	}
+	.icon2:hover{
+		width:1100px;
+	}
+	.icon3:hover{
+		width:1100px;
+	}
+	.icon4:hover{
+		width:1100px;
+	}
+	.icon5:hover{
+		width:1100px;
+	}
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px){
+	.demoreel iframe{
+		position:absolute;
+		margin-left: 0px;
+		margin-top: 0px;
+		width: 1500px;
+		height: 818px;
+	}
+	.demoreel h1{
+		padding-top: 0px;
+		margin-left: 0px;
+	}
+	.demoreel{
+		height: 2450px;
+		width: 1500px;
+	}
+	.callme{
+		top: 700px;
+		left: 200px;
+	}
+	.callme h1{
+		font-size:80px;
+		margin-left: 10px;
+	}
+	.callme p{
+		font-size: 40px;
+	}
+	.emailme{
+		height:3000px;
+	}
+	.emailme h1{
+		font-size: 80px;
+		padding-left: 250px;
+		padding-top: 460px;
+	}
+	.emailme ul{
+		margin-left:220px;
+		margin-top: 10px;
+	}
+	.emailme li{
+		font-size: 50px;
+	}
+	.emailme{
+		left: 600px;
+	}
+	.icon{
+		background-color:#F7475F;
+		position: absolute;
+		top:0px;
+		height: 2400px;
+		width: 1900px;
+		overflow:hidden;
+	}
+	.icon1, .icon2, .icon3, .icon4, .icon5{
+		margin-top: 150px;
+		float: left;
+		width: 200px;
+		height:2000px;
+	}
+	.icon1 img, .icon2 img, .icon3 img, .icon4 img, .icon5 img{
+		width: 2200px;
+	}
+	.icon1:hover{
+		width:400px;
+	}
+	.icon2:hover{
+		width:400px;
+	}
+	.icon3:hover{
+		width:400px;
+	}
+	.icon4:hover{
+		width:400px;
+	}
+	.icon5:hover{
+		width:400px;
+	}
+	.externallinks{
+		margin-left: 400px;
+	}
 }
